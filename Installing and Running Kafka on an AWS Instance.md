@@ -10,8 +10,7 @@ open all links.
 
 Create ubuntu instance on aws and launch it
 
-![](media/image1.png){width="2.741903980752406in"
-height="1.3001126421697289in"}
+![](media/image1.png){width="2.741903980752406in" height="1.3001126421697289in"}
 
 ![](media/image2.png){width="6.5in" height="0.7888888888888889in"}
 
@@ -27,8 +26,7 @@ sudo apt-get update
 
 sudo apt-get install openjdk-8-jdk
 
-![](media/image5.png){width="5.975517279090114in"
-height="0.1833497375328084in"}
+![](media/image5.png){width="5.975517279090114in" height="0.1833497375328084in"}
 
 Step 3 — Install ZooKeeper
 
@@ -43,8 +41,7 @@ repositories, install it using apt-get.
 
 sudo apt-get install zookeeperd
 
-![](media/image6.png){width="5.208784995625547in"
-height="0.2000174978127734in"}
+![](media/image6.png){width="5.208784995625547in" height="0.2000174978127734in"}
 
 After the installation completes, ZooKeeper will be started as a daemon
 automatically. By default, it will listen on port **2181**.
@@ -71,8 +68,7 @@ downloads.
 
 mkdir -p \~/Downloads
 
-![](media/image8.png){width="4.100355424321959in"
-height="0.16668088363954506in"}
+![](media/image8.png){width="4.100355424321959in" height="0.16668088363954506in"}
 
 From this link <https://archive.apache.org/dist/kafka/0.8.2.1/> download
 <https://archive.apache.org/dist/kafka/0.8.2.1/kafka_2.11-0.8.2.1.tgz>
@@ -122,8 +118,7 @@ Insert the following environment variable.
 
 export KAFKA\_HEAP\_OPTS="-Xmx250M –Xms250M"
 
-![](media/image13.png){width="4.033683289588802in"
-height="0.5000437445319335in"}
+![](media/image13.png){width="4.033683289588802in" height="0.5000437445319335in"}
 
 After setting the variable, source your .baschrc.
 
